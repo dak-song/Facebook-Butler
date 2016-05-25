@@ -1,0 +1,13 @@
+{
+	"name": "The icon changes when it is clicked",
+	"description": "Toggle icon from no sign to microphone when clicked",
+	"version": "1.0",
+	"permissions": [
+		"activeTab"
+	],
+	"background": { "scripts": ["background.js"] },
+	"browser_action": {
+		"default_icon": "micoff.png"
+	},
+	"manifest_version": 2
+}
